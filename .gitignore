@@ -1,0 +1,19 @@
+# Source video — 764 MB, far over GitHub's 100 MB file limit.
+# Keep it local. Never commit video files.
+*.mov
+*.mp4
+*.m4v
+
+# Frames dumped for picking ROIs — regenerable, and they pile up fast
+frame_*.png
+frames/
+
+# Debug overlay renders
+debug_*.mp4
+debug_*.avi
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
