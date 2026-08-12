@@ -1,6 +1,6 @@
 import cv2
 
-PATH = r"C:\Users\Punna\CookieRun\ScreenRecording_08-11-2569 22-05-26_1.mov"
+PATH = r"C:\Users\Punna\CookieRun\game_recorded.mov"
 cap = cv2.VideoCapture(PATH)
 fps = cap.get(cv2.CAP_PROP_FPS)
 

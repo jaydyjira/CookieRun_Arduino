@@ -1,10 +1,10 @@
 import cv2
 
-PATH = r"C:\Users\Punna\CookieRun\ScreenRecording_08-11-2569 22-05-26_1.mov"
+PATH = r"C:\Users\Punna\CookieRun\game_recorded.mov"
 
 cap = cv2.VideoCapture(PATH)
 if not cap.isOpened():
-    raise SystemExit("OpenCV could not open the file (codec problem?)")
+    raise SystemExit("OpenCV could not open the file")
 
 fps    = cap.get(cv2.CAP_PROP_FPS)
 frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
