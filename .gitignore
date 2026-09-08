@@ -12,6 +12,11 @@ frames/
 debug_*.mp4
 debug_*.avi
 
+# Extracted brightness signal — 1.5 MB, regenerable from the video
+# in one pass. Named specifically, not *.csv, so the small event list
+# this produces can still be committed.
+signal.csv
+
 # Python
 __pycache__/
 *.pyc
