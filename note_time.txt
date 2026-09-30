@@ -1,0 +1,6 @@
+random treasure when t_ms = 6533 ms
+Multi when t_ms = 7233 ms
+Multi-buy when t_ms = 8866 ms
+Play when t_ms = 12800 ms
+Jump starts when t_ms = 19768 ms
+Slide starts when t_ms = 19768 ms
