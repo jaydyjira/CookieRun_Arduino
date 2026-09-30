@@ -1,6 +1,26 @@
-random treasure when t_ms = 6533 ms
-Multi when t_ms = 7233 ms
-Multi-buy when t_ms = 8866 ms
-Play when t_ms = 12800 ms
-Jump starts when t_ms = 19768 ms
-Slide starts when t_ms = 19768 ms
+random treasure when t_ms = 6533 ms (Area=random_boost)
+Multi when t_ms = 7233 ms(random_boost)
+Multi-buy when t_ms = 8866 ms(random_boost)
+Play when t_ms = 12800 ms(start)
+Jump starts when t_ms = 19768 ms(jump)
+Slide starts when t_ms = 19768 ms(slide)
+Relay when t_ms = 334505 ms(relay)
+OK when t_ms = 410493 ms(random_boost)
+Open treasure when t_ms = 418378 ms(random_boost)
+Collect when t_ms = 420345 ms(random_boost)
+last one when t_ms = 421695 ms(random_boost)
+play again when t_ms = 428345 ms(start)
+
+Exact time
+random_boost = 7033.33 ms
+Multi = 8633 ms
+Multi-buy = 10233.33 ms
+Play = 15118 ms
+Jump starts = 21351 ms (brightness_when_pressed is around 59 / when_not_pressed around 180)
+Slide starts = 21351 ms (brightness_when_pressed is around 53 / when_not_pressed around 162)
+Relay = 336455 ms
+OK = 411060 ms
+Open treasure = 417078 ms
+Collect = 419511.66 ms
+last one = 422445 ms
+play again = 429128.33 ms

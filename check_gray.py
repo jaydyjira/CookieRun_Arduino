@@ -4,7 +4,8 @@ PATH = r"C:\Users\Punna\CookieRun\game_recorded2.mp4"
 cap = cv2.VideoCapture(PATH)
 if not cap.isOpened():
     raise SystemExit("OpenCV could not open the file")
-
+start_ms = 416793
+cap.set(cv2.CAP_PROP_POS_MSEC, start_ms)
 while True:
         t_ms = cap.get(cv2.CAP_PROP_POS_MSEC)
         ok, frame = cap.read()

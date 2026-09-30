@@ -1,11 +1,8 @@
-import csv, matplotlib.pyplot as plt
-
-t, jump, slide = [], [], []
-for r in csv.DictReader(open("signal.csv")):
-    t.append(float(r["t_ms"]) / 1000)
-    jump.append(float(r["jump"]))
-    slide.append(float(r["slide"]))
-
-plt.plot(t, jump, linewidth=0.5, label="jump")
-plt.plot(t, slide, linewidth=0.5, label="slide")
-plt.xlabel("seconds"); plt.legend(); plt.show()
+import pandas as pd
+df = pd.read_csv("signal2.csv")
+# print(df[df["t_ms"] > 6850][["t_ms","random_boost"]].head(20))
+# print(df[df["t_ms"] > 8350][["t_ms","slide"]].head(20))
+# print(df[df["t_ms"] > 10150][["t_ms","random_boost"]].head(20))
+# print(df[df["t_ms"] > 16000][["t_ms","start"]].head(20))
+# print(df[df["t_ms"] > 21300][["t_ms","jump"]].head(20))
+print(df[df["t_ms"] > 417000][["t_ms","random_boost"]].head(20))
